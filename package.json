@@ -9,17 +9,17 @@
     "react-scripts": "3.1.1",
     "redux": "^4.0.4"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run pretest"
-    }
-  },
   "scripts": {
     "pretest": "./node_modules/.bin/eslint --ignore-path .gitignore . --fix",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run pretest"
+    }
   },
   "eslintConfig": {
     "extends": "react-app"

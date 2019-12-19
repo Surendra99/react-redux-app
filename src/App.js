@@ -7,7 +7,7 @@ function App() {
   const counter = useSelector(state=>state.counter);
   const isLogged = useSelector(state=>state.isLogged);
   const dispatch = useDispatch();
-sd
+
 return (
       <div>
         <h1>Counter:{counter}</h1>
